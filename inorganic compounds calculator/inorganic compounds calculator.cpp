@@ -77,7 +77,7 @@ int main()
 		{
 			if (v != 2)
 			{
-				cout << "The value of v must be 2 since the metal is O" << endl;
+				cout << "The value of v must be 2 since the non-metal is O" << endl;
 				cout << "=================================================" << endl;
 			}
 			else if (z == v)
@@ -95,7 +95,7 @@ int main()
 		{
 			if (v != 1)
 			{
-				cout << "The value of v must be 1 since the metal is OH" << endl;
+				cout << "The value of v must be 1 since the non-metal is OH" << endl;
 				cout << "=================================================" << endl;
 			}
 			else if (z == v)
