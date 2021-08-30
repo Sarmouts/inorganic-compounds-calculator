@@ -67,6 +67,11 @@ int main()
 				cout << x + y << ": acid" << endl;
 				cout << "=================================================" << endl;
 			}
+			else if (y == "OH" && v == 1) {
+				result = "H2O";
+				cout << replaceOne(result) << ": water" << endl;
+				cout << "=================================================" << endl;
+			}
 			else if (y == "O" && v == 2) {
 				result = x + to_string(v) + parenthesis(y, z) + to_string(z);
 				cout << replaceOne(result) << ": water" << endl;
